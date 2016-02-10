@@ -8,5 +8,6 @@ base theme: <%= baseTheme %>
 
 regions:
   content: 'Content'
-<% regions.forEach(function(region){ -%>
-  <%= region.toLowerCase() %>: <%= region %><% }); %>
+  <%_ regions.forEach(function(region) { _%>
+  <%= region.toLowerCase(); %>: '<%= region %>'
+  <%_ }); _%>
