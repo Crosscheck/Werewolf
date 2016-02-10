@@ -4,8 +4,7 @@ package: Custom
 type: theme
 version: 1.0
 core: 8.x
-<%if (includeBaseThemeClassy) { %>base theme: classy<% } %>
-<%if (includeBaseThemeNone) { %>base theme: none<% } %>
+base theme: <%= baseTheme %>
 
 regions:
   header: 'Header'
