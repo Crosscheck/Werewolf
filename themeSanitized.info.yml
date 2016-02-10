@@ -1,5 +1,5 @@
-name: <%= theme-name %>
-description: <%= theme-description %>
+name: <%= themeName %>
+description: <%= themeDescription %>
 package: Custom
 type: theme
 version: 1.0
