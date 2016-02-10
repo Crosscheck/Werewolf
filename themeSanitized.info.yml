@@ -11,3 +11,6 @@ regions:
   <%_ regions.forEach(function(region) { _%>
   <%= region.toLowerCase(); %>: '<%= region %>'
   <%_ }); _%>
+
+libraries:
+  - <%= themeSanitized %>/global-styling
